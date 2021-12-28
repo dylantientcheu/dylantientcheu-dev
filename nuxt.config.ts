@@ -2,7 +2,15 @@ import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
   meta: {
-    title: 'Vitesse Nuxt 3',
+    title: 'Dylan Tientcheu',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Hi, I am Dylan Tientcheu, a software engineer and in love with everything software, data and user interfaces' },
+    ],
+    link: [
+      { rel: 'icon', type: 'image/png', href: '/icon.png' },
+    ],
   },
   buildModules: [
     '@vueuse/nuxt',

@@ -1,8 +1,10 @@
 <template>
-  <main class="py-20 px-10 text-center">
-    <NuxtPage />
-    <Footer />
-  </main>
+  <div class="p-4">
+    <Header />
+    <main class="container mx-auto my-12">
+      <NuxtPage />
+    </main>
+  </div>
 </template>
 
 <style>

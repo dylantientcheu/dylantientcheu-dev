@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center">
+  <div class="flex mx-auto justify-between items-center lg:w-1/2">
     <Logo />
     <div
       text="xl gray4"
@@ -9,8 +9,6 @@
       gap-3
     >
       <a class="i-carbon-logo-github" href="https://github.com/blurdylan" target="__blank" />
-      <a i-carbon:logo-linkedin href="https://www.linkedin.com/in/dylan-tientcheu/" target="__blank" />
-      <a i-carbon:notebook href="https://blog.dylantientcheu.dev" target="__blank" />
       <DarkToggle />
     </div>
   </div>

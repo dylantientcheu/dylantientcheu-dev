@@ -1,28 +1,22 @@
 {
 	"private": true,
+	"packageManager": "pnpm@7.5.0",
 	"scripts": {
 		"build": "nuxi build",
 		"dev": "nuxi dev",
-		"start": "node .output/server/index.mjs"
-	},
-	"dependencies": {
-		"pinia": "^2.0.6"
+		"start": "node .output/server/index.mjs",
+		"lint": "eslint .",
+		"postinstall": "nuxi prepare"
 	},
 	"devDependencies": {
-		"@antfu/eslint-config": "^0.13.1",
-		"@iconify-json/carbon": "^1.0.12",
+		"@antfu/eslint-config": "^0.25.2",
+		"@iconify-json/carbon": "^1.1.7",
 		"@iconify-json/logos": "latest",
-		"@pinia/nuxt": "^0.1.6",
-		"@unocss/nuxt": "^0.16.4",
-		"@vueuse/nuxt": "^7.3.0",
-		"eslint": "^8.4.1",
-		"nuxt3": "latest",
-		"typescript": "^4.5.4"
-	},
-	"pnpm": {
-		"overrides": {
-			"@nuxt/kit": "npm:@nuxt/kit-edge@latest",
-			"@nuxt/kit-edge": "latest"
-		}
+		"@nuxtjs/color-mode": "^3.1.4",
+		"@unocss/nuxt": "^0.45.5",
+		"@vueuse/nuxt": "^9.1.0",
+		"eslint": "^8.21.0",
+		"nuxt": "3.0.0-rc.6",
+		"typescript": "^4.7.4"
 	}
 }

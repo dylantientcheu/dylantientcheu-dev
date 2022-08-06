@@ -14,12 +14,9 @@ toRefs(props)
 
 <template>
   <div>
-    <div class="rounded cursor-pointer flex my-2 opacity-95 gap-2 md:p-2 md:pb-2 hover:bg-gray-100 hover:opacity-100 dark:hover:bg-dark-700">
-      <div class="icon">
-        <p class="text-5xl" :class="icon" />
-      </div>
-      <div>
-        <p class="font-bold">
+    <div class="rounded cursor-pointer flex bg-gray-50 opacity-95 p-4 transition-all dark:bg-dark-800 hover:bg-gray-100 hover:shadow-xl hover:shadow-light-200 dark:hover:bg-dark-500 dark:hover:shadow-dark-400 ">
+      <div class="md:pb-2">
+        <p class="font-bold text-xl">
           {{ name }}
         </p>
         <p class="text-sm text-gray-400">

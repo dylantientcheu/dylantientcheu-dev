@@ -30,10 +30,6 @@
         </a>
     </TransitionGroup>
 
-    <button @click="addProject">
-    addProject
-    </button>
-
     <h1 class="font-black mt-12 mb-4 text-gray-400 text-4xl">
       # <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">Blog & memos</span>
     </h1>

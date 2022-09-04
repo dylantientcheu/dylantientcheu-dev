@@ -9,7 +9,6 @@ interface Props {
 
 const props = defineProps<Props>()
 toRefs(props)
-
 </script>
 
 <template>
@@ -23,7 +22,7 @@ toRefs(props)
           {{ description }}
         </p>
         <div v-if="tools" class="flex mt-2 gap-3 items-center">
-          <a v-for="tool in tools" :key="tool" :class="tool" />
+          <i v-for="tool in tools" :key="tool" :class="tool" />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
       justify-center
       gap-3
     >
-      <a class="i-carbon-logo-github" href="https://github.com/blurdylan" target="__blank" />
+      <a class="text-gray-500 i-carbon-logo-github  hover:text-black dark:hover:text-white" href="https://github.com/blurdylan" target="__blank" />
       <DarkToggle />
     </div>
   </div>

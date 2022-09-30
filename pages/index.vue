@@ -12,7 +12,7 @@ onMounted(() => {
         'The most comprehensive Firestore helper functions for web and admin server',
       url: 'http://fireman-fns.netlify.com',
       icon: 'i-carbon-building-insights-1',
-      tools: ['i-logos-nodejs-icon', 'i-logos-firebase', 'i-logos-python'],
+      tools: ['i-logos-nodejs-icon', 'i-logos-firebase', 'i-logos-mocha', 'i-logos-chai'],
     },
     {
       name: 'Manifesto',

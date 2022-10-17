@@ -16,7 +16,7 @@ onMounted(() => {
     },
     {
       name: 'Manifesto',
-      description: 'A PWA that helps generate a manifest for your own PWA',
+      description: 'A PWA tool that helps generate a manifest for your own PWA',
       url: 'https://blurdylan.github.io/manifesto/',
       icon: 'i-carbon-box-medium',
       tools: ['i-logos-vue', 'i-logos-node-sass', 'i-logos-pwa'],

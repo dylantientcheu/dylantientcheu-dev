@@ -23,8 +23,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
+        sans: 'Jost',
         mono: 'DM Mono',
       },
     }),

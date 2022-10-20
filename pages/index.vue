@@ -106,7 +106,7 @@ function leaveTransition(el, done) {
 <template>
   <div class="mx-auto lg:w-1/2">
     <h1 class="font-black mt-4 mb-0 text-gray-400 text-4xl">
-      <div># <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">Summary</span></div>
+      <div><span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> summary</span></div>
     </h1>
 
     <p mt-4>
@@ -125,7 +125,7 @@ function leaveTransition(el, done) {
       <a class="cursivo" href="https://www.instagram.com/dylantientcheu/" @mouseenter="popTech(['i-logos-instagram-icon'])" @mouseleave="unpopTech">Instagram</a>.
     </p>
     <h1 class="font-black mt-12 mb-4 text-gray-400 text-4xl">
-      # <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">My craft</span>
+      <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> my_craft</span>
     </h1>
 
     <TransitionGroup appear :css="false" @enter="enterTransition" @leave="leaveTransition">
@@ -145,7 +145,7 @@ function leaveTransition(el, done) {
     </TransitionGroup>
 
     <h1 class="font-black mt-12 mb-4 text-gray-400 text-4xl">
-      # <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">Blog & memos</span>
+      <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> blog_and_memos</span>
     </h1>
     <p mt-4>
       I write about my experiences and thoughts on
@@ -156,7 +156,7 @@ function leaveTransition(el, done) {
       <a class="cursivo" href="https://twitter.com/dylantientcheu" @mouseenter="popTech(['i-logos-twitter'])" @mouseleave="unpopTech">Twitter</a>.
     </p>
     <h1 class="font-black mt-12 mb-0 text-gray-400 text-4xl">
-      # <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">Get in touch</span>
+      <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> get_in_touch</span>
     </h1>
     <p mt-4>
       Hit me up at

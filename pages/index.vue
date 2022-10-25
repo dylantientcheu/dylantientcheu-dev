@@ -105,7 +105,7 @@ function leaveTransition(el, done) {
 
 <template>
   <div class="mx-auto lg:w-1/2">
-    <h1 class="font-black mt-4 mb-0 text-gray-400 text-4xl">
+    <h1 class="font-black mt-4 mb-0 text-gray-400 text-3xl">
       <div><span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> summary</span></div>
     </h1>
 
@@ -124,7 +124,7 @@ function leaveTransition(el, done) {
       and
       <a class="cursivo" href="https://www.instagram.com/dylantientcheu/" @mouseenter="popTech(['i-logos-instagram-icon'])" @mouseleave="unpopTech">Instagram</a>.
     </p>
-    <h1 class="font-black mt-12 mb-4 text-gray-400 text-4xl">
+    <h1 class="font-black mt-12 mb-4 text-gray-400 text-3xl">
       <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> my_craft</span>
     </h1>
 
@@ -144,7 +144,7 @@ function leaveTransition(el, done) {
       </a>
     </TransitionGroup>
 
-    <h1 class="font-black mt-12 mb-4 text-gray-400 text-4xl">
+    <h1 class="font-black mt-12 mb-4 text-gray-400 text-3xl">
       <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> blog_and_memos</span>
     </h1>
     <p mt-4>
@@ -155,7 +155,7 @@ function leaveTransition(el, done) {
       >Medium</a> and
       <a class="cursivo" href="https://twitter.com/dylantientcheu" @mouseenter="popTech(['i-logos-twitter'])" @mouseleave="unpopTech">Twitter</a>.
     </p>
-    <h1 class="font-black mt-12 mb-0 text-gray-400 text-4xl">
+    <h1 class="font-black mt-12 mb-0 text-gray-400 text-3xl">
       <span class="text-gray ml-4 top-2 text-6xl z-10 cursivo">> get_in_touch</span>
     </h1>
     <p mt-4>

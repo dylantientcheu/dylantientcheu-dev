@@ -1,6 +1,12 @@
 <script setup>
 useHead({
   title: 'Dylan Tientcheu',
+  script: [
+    {
+      src: 'https://cdn.splitbee.io/sb.js',
+      async: true,
+    },
+  ],
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,7 +29,7 @@ useHead({
   ],
 
   link: [{ rel: 'icon', type: 'image/png', href: '/icon.png' }],
-});
+})
 </script>
 
 <template>

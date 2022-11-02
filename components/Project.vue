@@ -15,7 +15,7 @@ toRefs(props)
   <div>
     <div class="rounded cursor-pointer flex bg-gray-50 my-1 opacity-95 p-4 transition-all dark:bg-dark-800 hover:bg-gray-100 hover:shadow-xl hover:shadow-light-200 dark:hover:bg-dark-500 dark:hover:shadow-dark-400 ">
       <div class="md:pb-2">
-        <p class="font-bold text-xl">
+        <p class="font-bold text-xl cursivo">
           {{ name }}
         </p>
         <p class="text-sm text-gray-400">

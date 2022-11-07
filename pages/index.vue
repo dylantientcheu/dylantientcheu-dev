@@ -118,7 +118,7 @@ function leaveTransition(el, done) {
       When I do not code, I ball, listen music, travel and eat foreign food or talk with strangers.
     </p>
     <p mt-8>
-      You can find me on
+      Find me on
       <a class="cursivo" href="https://github.com/blurdylan" @mouseenter="popTech(['i-logos-github-icon'])" @mouseleave="unpopTech">Github</a>,
       <a class="cursivo" href="https://www.linkedin.com/in/dylan-tientcheu/" @mouseenter="popTech(['i-logos-linkedin-icon'])" @mouseleave="unpopTech">LinkedIn</a>
       and

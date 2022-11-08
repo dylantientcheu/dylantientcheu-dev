@@ -31,7 +31,7 @@ onMounted(() => {
     {
       name: 'Wörter Vogel',
       description:
-        'German minimal dictionary - helps you find word gender, syllables and phonetics',
+        'German minimal dictionary - helps you find words genders, syllables and phonetics',
       url: 'https://github.com/blurdylan/worter-vogel',
       icon: 'i-carbon-notebook-reference',
       tools: ['i-logos-react'],

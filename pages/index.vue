@@ -17,14 +17,14 @@ onMounted(() => {
     {
       name: 'Manifesto',
       description: 'A PWA tool that helps generate a manifest for your own PWA',
-      url: 'https://blurdylan.github.io/manifesto/',
+      url: 'https://dylantientcheu.github.io/manifesto/',
       icon: 'i-carbon-box-medium',
       tools: ['i-logos-vue', 'i-logos-node-sass', 'i-logos-pwa'],
     },
     {
       name: 'Manifesto CLI',
       description: 'A CLI tool that helps generate a manifest for your PWA',
-      url: 'https://github.com/blurdylan/manifesto-cli',
+      url: 'https://github.com/dylantientcheu/manifesto-cli',
       icon: 'i-carbon-border-none',
       tools: ['i-logos-nodejs-icon', 'i-logos-terminal', 'i-logos-pwa'],
     },
@@ -32,7 +32,7 @@ onMounted(() => {
       name: 'Wörter Vogel',
       description:
         'German minimal dictionary - helps you find words genders, syllables and phonetics',
-      url: 'https://github.com/blurdylan/worter-vogel',
+      url: 'https://github.com/dylantientcheu/worter-vogel',
       icon: 'i-carbon-notebook-reference',
       tools: ['i-logos-react'],
     },
@@ -119,7 +119,7 @@ function leaveTransition(el, done) {
     </p>
     <p mt-8>
       Find me on
-      <a class="cursivo" href="https://github.com/blurdylan" @mouseenter="popTech(['i-logos-github-icon'])" @mouseleave="unpopTech">Github</a>,
+      <a class="cursivo" href="https://github.com/dylantientcheu" @mouseenter="popTech(['i-logos-github-icon'])" @mouseleave="unpopTech">Github</a>,
       <a class="cursivo" href="https://www.linkedin.com/in/dylan-tientcheu/" @mouseenter="popTech(['i-logos-linkedin-icon'])" @mouseleave="unpopTech">LinkedIn</a>
       and
       <a class="cursivo" href="https://www.instagram.com/dylantientcheu/" @mouseenter="popTech(['i-logos-instagram-icon'])" @mouseleave="unpopTech">Instagram</a>.

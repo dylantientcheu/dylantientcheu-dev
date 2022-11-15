@@ -115,7 +115,7 @@ function leaveTransition(el, done) {
       based in Paris and in love with everything software, dx, data and infrastructure.
     </p>
     <p mt-2>
-      When I do not code, I ball, listen music, travel and eat foreign food or talk with strangers.
+      When I do not code, I ball, listen music (might post my Apple Music playlists soon), travel and eat foreign food or talk with strangers.
     </p>
     <p mt-8>
       Find me on

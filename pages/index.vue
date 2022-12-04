@@ -8,7 +8,7 @@ onMounted(() => {
   const projectsList = [
     {
       name: 'nbacli',
-      description: '🏀 The NBA in your CLI',
+      description: '🏀 The NBA in your CLI. Get games, current scores and stats.',
       url: 'https://github.com/dylantientcheu/nbacli',
       icon: 'i-carbon-box-medium',
       tools: ['i-logos-go', 'i-logos-terminal'],

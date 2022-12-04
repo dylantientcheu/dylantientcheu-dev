@@ -7,6 +7,13 @@ const poppedIcons = ref([])
 onMounted(() => {
   const projectsList = [
     {
+      name: 'nbacli',
+      description: '🏀 The NBA in your CLI',
+      url: 'https://github.com/dylantientcheu/nbacli',
+      icon: 'i-carbon-box-medium',
+      tools: ['i-logos-go', 'i-logos-terminal'],
+    },
+    {
       name: 'Fireman',
       description:
         'The most comprehensive Firestore helper functions for web and admin server',

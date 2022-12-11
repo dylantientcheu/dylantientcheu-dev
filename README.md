@@ -1,6 +1,6 @@
 # dylantientcheu.dev
 
-personal website - portfolio website
+personal website
 
 - [meet me](https://dylantientcheu.dev)
 - [message me](mailto:hi@dylantientcheu.dev)

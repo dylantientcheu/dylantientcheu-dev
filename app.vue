@@ -33,12 +33,14 @@ useHead({
 </script>
 
 <template>
-  <div class="p-4">
+  <nav class="p-4 px-8">
     <Header />
+  </nav>
+  <body class="flex flex-col p-4 antialiased place-content-center items-center justify-center">
     <NuxtLayout cl>
       <NuxtPage />
     </NuxtLayout>
-  </div>
+  </body>
 </template>
 
 <style>
@@ -64,29 +66,20 @@ useHead({
 html,
 body,
 #__nuxt {
-  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Jost", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 html.dark {
-  background: #121212;
+  background: #000;
   color: #d3d3d3;
-}
-
-a {
-  font-weight: 600;
-  text-decoration: underline;
-  @apply hover:text-orange-500;
 }
 
 .cursivo {
   font-family: "VG5000";
 }
 
-a.cursivo {
-  font-family: "VG5000";
-}
 </style>

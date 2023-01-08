@@ -1,6 +1,14 @@
 export default defineNuxtConfig({
-  target: 'static',
-  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@nuxtjs/color-mode'],
+  modules: [
+    '@nuxt/content',
+    '@vueuse/nuxt',
+    '@unocss/nuxt',
+    '@nuxtjs/color-mode',
+  ],
+  content: {
+    // Disable for security reason on CodeSandBox
+    defaultLocale: 'en',
+  },
   unocss: {
     preflight: true,
   },

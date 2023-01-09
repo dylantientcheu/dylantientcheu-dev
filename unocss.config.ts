@@ -21,7 +21,8 @@ export default defineConfig({
     presetIcons({
       scale: 1.2,
     }),
-    presetTypography(),
+    presetTypography(
+    ),
     presetWebFonts({
       fonts: {
         sans: 'Jost',

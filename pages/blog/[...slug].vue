@@ -3,29 +3,30 @@
 </script>
 
 <template>
-  <ContentDoc :path="$route.path" class="prose">
+  <ContentDoc :path="$route.path">
     <template #default="{ doc }">
-      <ContentRenderer :value="doc" />
+      <ContentRenderer :value="doc" class="text-2xl prose " />
     </template>
   </ContentDoc>
 </template>
 
-<style>
-h1 {
-  @apply text-center big-title;
+<style scoped>
+:deep(h1) {
+  @apply text-center !big-title;
   font-family: "VG5000" !important;
 }
 
-h2,h3,h4,h5,h6 {
+:deep(h2,h3,h4,h5,h6) {
   font-family: "VG5000" !important;
 
 }
 
-p {
-  @apply my-3;
+:deep(hr) {
+  @apply border-b border-dashed border-0 border-gray-300 my-3 dark:border-gray-800;
 }
 
-hr {
-  @apply border-b border-dashed border-0 border-gray-300 my-3 dark:border-gray-8;
+:deep(code, kbd, samp, pre) {
+    font-family: 'DM Mono';
+    font-size: 1em;
 }
 </style>

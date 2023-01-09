@@ -6,15 +6,20 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
   ],
   content: {
-    // Disable for security reason on CodeSandBox
     defaultLocale: 'en',
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+        sepia: 'monokai',
+      },
+    },
   },
   unocss: {
     preflight: true,
   },
   experimental: {
     reactivityTransform: true,
-    viteNode: false,
   },
   colorMode: {
     classSuffix: '',

@@ -33,20 +33,18 @@ useHead({
 </script>
 
 <template>
-  <nav class="p-4 px-8">
+  <nav class="md:px-8">
     <Header />
   </nav>
-  <body class="flex flex-col p-4 antialiased place-content-center items-center justify-center">
-    <NuxtLayout cl>
+  <body class="flex flex-col antialiased md:place-content-center md:items-center md:justify-center">
+    <NuxtLayout>
+      <NuxtLoadingIndicator />
       <NuxtPage />
     </NuxtLayout>
   </body>
 </template>
 
 <style>
-/* @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;600;700;900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Square+Peg");
-
 @font-face {
   font-family: 'VG5000';
   font-style: normal;
@@ -67,9 +65,8 @@ html,
 body,
 #__nuxt {
   margin: 0;
-  padding: 0;
+  padding: 4px;
   font-family: "Jost", sans-serif;
-  font-size: 1.2rem;
   width: 100%;
 }
 
@@ -81,5 +78,4 @@ html.dark {
 .cursivo {
   font-family: "VG5000";
 }
-
 </style>

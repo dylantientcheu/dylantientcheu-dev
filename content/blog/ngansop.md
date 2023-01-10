@@ -1,13 +1,12 @@
 ---
-title: 'Querying, searching and finding with Context'
+title: 'Authentication with JWT, Firebase 🔥 and Next Auth'
 description: 'Aliquam sollicitudin sapien et mauris venenatis elementum. Morbi libero massa, pellentesque pharetra risus a, ornare accumsan libero. Nullam eu nisl mi. Donec tempus sit amet risus et viverra. Nulla facilisi. Ut quis posuere nisl.'
 image: 'https://images.unsplash.com/photo-1542731247-7b3b0f7b5f5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
-date: '15th January 2023'
-tags: ['Opinions']
-featured: true
+date: '4th of January 2023'
+tags: ['Opinions', 'Cloud', 'Infra']
 ---
 
-# Querying, searching and finding with Context
+# Authentication with JWT, Firebase and Next Auth
 
 ---
 

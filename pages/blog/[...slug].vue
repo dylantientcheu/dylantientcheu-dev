@@ -5,7 +5,7 @@
 <template>
   <ContentDoc :path="$route.path">
     <template #default="{ doc }">
-      <ContentRenderer :value="doc" class="text-2xl prose " />
+      <ContentRenderer :value="doc" class="text-lg prose lg:text-2xl " />
     </template>
   </ContentDoc>
 </template>

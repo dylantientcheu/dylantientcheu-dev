@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mx-auto justify-between items-center lg:w-1/2">
+  <div class="flex mx-auto justify-between items-center">
     <Logo />
     <div
       text="xl gray4"

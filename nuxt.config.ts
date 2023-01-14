@@ -1,12 +1,25 @@
 export default defineNuxtConfig({
-  target: 'static',
-  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@nuxtjs/color-mode'],
+  modules: [
+    '@nuxt/content',
+    '@vueuse/nuxt',
+    '@unocss/nuxt',
+    '@nuxtjs/color-mode',
+  ],
+  content: {
+    defaultLocale: 'en',
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+        sepia: 'monokai',
+      },
+    },
+  },
   unocss: {
     preflight: true,
   },
   experimental: {
     reactivityTransform: true,
-    viteNode: false,
   },
   colorMode: {
     classSuffix: '',

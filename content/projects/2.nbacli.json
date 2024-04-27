@@ -1,0 +1,7 @@
+{
+  "name": "NBA CLI",
+  "url": "https://github.com/dylantientcheu/nbacli",
+  "description": "Terminal app that provides NBA scores, stats, and news.",
+  "thumbnail": "/projects/nbacli.png",
+  "status": "Active"
+}

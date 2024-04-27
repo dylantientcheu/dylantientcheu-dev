@@ -1,33 +1,40 @@
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   modules: [
-    '@nuxt/content',
-    '@vueuse/nuxt',
-    '@unocss/nuxt',
-    '@nuxtjs/color-mode',
+    "@nuxt/ui",
+    "nuxt-icon",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/fontaine",
+    "@nuxt/devtools",
+    "@nuxt/image",
+    "@nuxt/content",
+    "@nuxthq/studio",
+    "@vueuse/nuxt"
   ],
-  content: {
-    defaultLocale: 'en',
-    highlight: {
-      theme: {
-        default: 'github-light',
-        dark: 'github-dark',
-        sepia: 'monokai',
+  ui: {
+    icons: ["heroicons", "lucide"],
+  },
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      htmlAttrs: {
+        lang: "en",
+        class: "h-full",
+      },
+      bodyAttrs: {
+        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
     },
   },
-  unocss: {
-    preflight: true,
-  },
-  experimental: {
-    reactivityTransform: true,
-  },
-  colorMode: {
-    classSuffix: '',
-  },
-  hooks: {
-    'vite:extendConfig': function (config: any, { isServer }: any) {
-      if (isServer)
-        config.build.rollupOptions.output.inlineDynamicImports = true
+  content: {
+    highlight: {
+      theme: "github-dark",
     },
   },
-})
+  googleFonts: {
+    display: "swap",
+    families: {
+      Inter: [400, 500, 600, 700, 800, 900],
+    },
+  },
+});

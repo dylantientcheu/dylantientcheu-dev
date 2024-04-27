@@ -1,0 +1,8 @@
+{
+  "name": "Lamap bot",
+  "url": "https://lamapbot.com",
+  "description": "Open source card game bot for Telegram",
+  "thumbnail": "/projects/lamapbot.png",
+  "status": "WIP",
+  "opensource": true
+}

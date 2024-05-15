@@ -1,0 +1,1 @@
+import{k as o,b as s,c as t,S as r}from"./entry.B6-0EqpO.js";const a={},c={class:"max-h-96 overflow-auto bg-gray-900 p-2"};function n(e,l){return s(),t("div",c,[r(e.$slots,"default")])}const d=o(a,[["render",n]]);export{d as default};

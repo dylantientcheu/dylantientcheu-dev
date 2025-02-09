@@ -1,7 +1,8 @@
 ---
-title: "embracing the single point of failure"
-description: "every system has a single point of failure. it's not about having zero SPoF, but about choosing the right SPoF and monitoring it effectively."
-published: "2025-02-08"
+title: embracing the single point of failure
+description: every system has a single point of failure. it's not about having
+  zero SPoF, but about choosing the right SPoF and monitoring it effectively.
+published: 2025-02-08
 slug: embracing-the-spof
 ---
 
@@ -11,7 +12,7 @@ that said, how you choose and manage your single point of failure can make or br
 
 ## Why Is There Always a Single Point of Failure?
 
-<img src="/articles/spof-lih.png" alt="why is there always a single point of failure?" class=" mx-auto rounded-lg" />
+![why is there always a single point of failure?](/articles/spof-lih.png){.mx-auto.rounded-lg}
 
 1. **Microservices still share core infrastructure**: Even container-based architectures rely on a single orchestrator (e.g., Kubernetes) or an API gateway. A malfunction at this level affects every service.
 2. **Configuration Management and Secrets**: Centralized configuration servers, key vaults, or secret managers remain critical single points where an outage can halt deployments or break production.

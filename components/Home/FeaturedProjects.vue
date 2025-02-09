@@ -12,8 +12,8 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-const { data: projects } = await useAsyncData("projects-home", () =>
-  queryContent("/projects").limit(3).find()
+<script setup>
+const { data: projects } = await useAsyncData("projects", () =>
+  queryCollection("projects").limit(3).all()
 );
 </script>

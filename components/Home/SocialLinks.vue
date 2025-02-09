@@ -9,7 +9,7 @@
         </span>
         <div class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700">
         </div>
-        <Icon :name="link.icon" class="w-6 h-6"></Icon>
+        <UIcon :name="link.icon" class="w-6 h-6"/>
       </NuxtLink>
     </div>
   </div>

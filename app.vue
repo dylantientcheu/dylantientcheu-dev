@@ -1,11 +1,13 @@
 <template>
-  <Script defer src="https://analytics.eu.umami.is/script.js"
-    data-website-id="6d8618be-7142-4a0b-a14f-41501951a1cf"></Script>
   <NuxtLoadingIndicator color="#14b8a6" />
   <AppNavbar />
   <div class="h-32"></div>
   <UContainer>
-    <NuxtPage />
+    <div class="flex flex-col flex-1 max-w-[960px] gap-y-16">
+      <main class="container mx-auto my-12">
+        <NuxtPage />
+      </main>
+    </div>
   </UContainer>
   <div class="h-32"></div>
   <AppFooter />

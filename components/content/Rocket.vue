@@ -6,7 +6,7 @@
     :style="{ '--streak-speed': streakSpeed }"
   >
     <span class="rocket" :class="{ shake: fast, move: !fast }">
-      <Icon name="ph:rocket-duotone" class="h-12 w-12 -rotate-90" />
+      <UIcon name="ph:rocket-duotone" class="h-12 w-12 -rotate-90" />
     </span>
     <span
       v-for="n in 5"

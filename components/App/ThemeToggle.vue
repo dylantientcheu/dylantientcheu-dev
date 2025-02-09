@@ -9,15 +9,16 @@ const isDark = computed({
     colorMode.preference = colorMode.value === "dark" ? "light" : "dark";
   },
 });
+
 </script>
 
 <template>
-  <UTooltip text="Toggle theme" :ui="{ popper: { strategy: 'absolute' } }">
+  <UTooltip text="Toggle theme"  :ui="{ popper: { strategy: 'absolute' } }" asChild>
     <button
       class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
       @click="isDark = !isDark"
     >
-      <Icon
+      <UIcon
         aria-hidden="true"
         :name="isDark ? 'solar:sun-2-outline' : 'solar:moon-outline'"
         class="w-5 h-5"

@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	ssr: false,
-
+	buildDir: "dist",
 	modules: [
 		"@nuxt/ui",
 		"@nuxtjs/google-fonts",

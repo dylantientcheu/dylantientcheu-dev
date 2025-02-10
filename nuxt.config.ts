@@ -1,6 +1,5 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	buildDir: "dist",
 	modules: [
 		"@nuxt/ui",
 		"@nuxtjs/google-fonts",
@@ -9,6 +8,7 @@ export default defineNuxtConfig({
 		"@nuxt/image",
 		"@nuxt/content",
 		"@vueuse/nuxt",
+		"@nuxthub/core",
 	],
 
 	icon: {

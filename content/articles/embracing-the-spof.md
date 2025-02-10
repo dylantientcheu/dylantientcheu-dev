@@ -27,10 +27,10 @@ that said, how you choose and manage your single point of failure can make or br
 
 Below are a few incidents that underscore how infrastructure SPOFs can impact massive, well-established systems:
 
-- **Netflix AWS Outage (2012)**: Although Netflix designs its services for resilience, in 2012 a major AWS availability zone outage impacted streaming and user login, exposing how even a multi-region setup can still face a critical SPOF in a shared service.
-- **DNS Provider Failures**: Entire segments of the internet have gone offline when major DNS providers encounter issues. DNS remains a universal SPOF—even if your infrastructure is multi-cloud, domain lookups still rely on a singular name resolution pathway.
-- **Slack Load Balancer Meltdown**: In certain Slack outages, critical load balancers became overwhelmed, preventing client connections. Once the main load balancer was overloaded, no backup quickly took over, effectively rendering the service unavailable.
-- **GitHub Database Outage (2020)**: A database partitioning strategy that unexpectedly broke under heavy load led to a prolonged service disruption, showing that a critical data storage tier can remain a SPOF if redundancy procedures aren’t carefully tested.
+- **Netflix AWS outage (2012)**: Although Netflix designs its services for resilience, in 2012 a major AWS availability zone outage impacted streaming and user login, exposing how even a multi-region setup can still face a critical SPOF in a shared service.
+- **DNS provider failures**: (Not your fault, but probably another SPOF on their end \:p) Entire segments of the internet have gone offline when major DNS providers encounter issues. DNS remains a universal SPOF—even if your infrastructure is multi-cloud, domain lookups still rely on a singular name resolution pathway.
+- **Slack load balancer meltdown**: In certain Slack outages, critical load balancers became overwhelmed, preventing client connections. Once the main load balancer was overloaded, no backup quickly took over, effectively rendering the service unavailable.
+- **GitHub database outage (2020)**: A database partitioning strategy that unexpectedly broke under heavy load led to a prolonged service disruption, showing that a critical data storage tier can remain a SPOF if redundancy procedures aren’t carefully tested.
 
 Each of these incidents reveals that it’s not about having zero SPOFs but rather understanding precisely where they are, how they’re protected, and what happens if they fail.
 

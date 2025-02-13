@@ -15,7 +15,7 @@ that said, how you choose and manage your single point of failure can make or br
 ![why is there always a single point of failure?](/articles/spof-lih.png){.mx-auto.rounded-lg}
 
 1. **Microservices still share core infrastructure**: Even container-based architectures rely on a single orchestrator (e.g., Kubernetes) or an API gateway. A malfunction at this level affects every service.
-2. **Configuration Management and Secrets**: Centralized configuration servers, key vaults, or secret managers remain critical single points where an outage can halt deployments or break production.
+2. **Configuration management and secrets**: Centralized configuration servers, key vaults, or secret managers remain critical single points where an outage can halt deployments or break production.
 3. **Critical third-party libraries and APIs**: Essential libraries or services (e.g., authentication, payment gateways) can go down, effectively halting your software.
 4. **Central datastores**: Databases might be replicated, but they’re typically treated as a single logical source of truth. Replication can reduce downtime, yet the fundamental reliance on one data platform doesn’t vanish.
 5. **Deployment Pipeline or Build System**: CI/CD systems, artifact repositories, and Docker registries can become bottlenecks if they fail at crucial times, stopping your entire release process.
